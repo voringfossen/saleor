@@ -5,6 +5,7 @@ All notable, unreleased changes to this project will be documented in this file.
 # 3.5.0 [Unreleased]
 
 ### Other changes
+- Introduce plain text attribute - #9907 by @IKarbowiak
 
 #### Saleor Apps
 - Add webhooks `PAGE_TYPE_CREATED`, `PAGE_TYPE_UPDATED` and `PAGE_TYPE_DELETED` - #9859 by @SzymJ
