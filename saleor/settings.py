@@ -37,7 +37,7 @@ def get_bool_from_env(name, default_value):
     return default_value
 
 
-DEBUG = FALSE("DEBUG", True)
+DEBUG = False("DEBUG", True)
 
 SITE_ID = 1
 
