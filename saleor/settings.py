@@ -26,7 +26,6 @@ from .core.languages import LANGUAGES as CORE_LANGUAGES
 def get_list(text):
     return [item.strip() for item in text.split(",")]
 
-DISABLE_COLLECTSTATIC=True
 
 def get_bool_from_env(name, default_value):
     if name in os.environ:
