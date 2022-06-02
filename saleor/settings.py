@@ -54,14 +54,14 @@ MANAGERS = ADMINS
 
 _DEFAULT_CLIENT_HOSTS = "saldjango.herokuapp.com"
 
-ALLOWED_CLIENT_HOSTS = os.environ.get("ALLOWED_CLIENT_HOSTS")
-if not ALLOWED_CLIENT_HOSTS:
-    if DEBUG:
-        ALLOWED_CLIENT_HOSTS = _DEFAULT_CLIENT_HOSTS
-    else:
-        raise ImproperlyConfigured(
-            "ALLOWED_CLIENT_HOSTS environment variable must be set when DEBUG=False."
-        )
+#ALLOWED_CLIENT_HOSTS = os.environ.get("ALLOWED_CLIENT_HOSTS")
+#if not ALLOWED_CLIENT_HOSTS:
+#    if DEBUG:
+#        ALLOWED_CLIENT_HOSTS = _DEFAULT_CLIENT_HOSTS
+#    else:
+#        raise ImproperlyConfigured(
+#            "ALLOWED_CLIENT_HOSTS environment variable must be set when DEBUG=False."
+#        )
 
 ALLOWED_CLIENT_HOSTS = "saldjango.herokuapp.com"
 
